@@ -18,7 +18,7 @@ source = {
 build = {
   type = "builtin",
   modules = {
-    ["kong.plugins.encode-plugin.handler"] = "/home/kong/Desktop/encode-plugin/handler.lua",
-    ["kong.plugins.encode-plugin.schema"] = "/home/kong/Desktop/encode-plugin/schema.lua",
+    ["kong.plugins.encode-plugin.handler"] = "handler.lua",
+    ["kong.plugins.encode-plugin.schema"] = "schema.lua",
   },
 }
