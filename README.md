@@ -1,16 +1,41 @@
-Steps to Use the Plugin
-Install the Plugin: Run 
-sudo luarocks make kong-plugin-encode-plugin-0.1.0-1.rockspec
-Enable the Plugin:
-Add the plugin to a service or globally using the Admin API.
+# encode-plugin 
+
+
+# Encding Plugin for Kong
+
+## Overview
+
+The `encode-plugin` for Kong Gateway provides encoding  functionalities for responses coming from backend.
+
+## Installation
+
+1. **Clone the repository:**
+
+   ```bash
+   git clone https://github.com/yourusername/encode-plugin.git
+   cd encryption-plugin
+
+=========================================================================================
+### 2. Install and Enable the Plugin
+
+1. **Install the Plugin**
+
+   If you have LuaRocks installed, navigate to the plugin directory and run:
+
+   ```bash
+   sudo luarocks make kong-plugin-encode-plugin-0.1.0-1.rockspec
+
+
+============================================
+To allow ip open on putty application connection
+apt install net-tools
+netstat -ntpl
+apt install openssh-server
 
 
 
 
 
-Example:
 
-curl -X POST http://localhost:8001/services/{service_id}/plugins \
-     --data "name=encode-plugin"
-Test the Plugin: Verify with requests to ensure the responses are encoded.
-This setup ensures the backend response is Base64 encoded while conforming to Kong's plugin framework.
+
+
