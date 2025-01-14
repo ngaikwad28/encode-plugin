@@ -26,11 +26,6 @@ The `encode-plugin` for Kong Gateway provides encoding  functionalities for resp
    sudo luarocks make kong-plugin-encode-plugin-0.1.0-1.rockspec
 
 
-============================================
-To allow ip open on putty application connection
-apt install net-tools
-netstat -ntpl
-apt install openssh-server
 
 
 
